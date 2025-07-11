@@ -6,8 +6,11 @@ class person:
     def talk(self):
         print(f"{self.name}  can talk")
 
+    def walk(self):
+        print(f"{self.name}  can walk")
+
 p_obj=person("manish",30)
 p_obj.talk()
-
+p_obj.walk()
 
 
