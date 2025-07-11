@@ -14,5 +14,6 @@ class person:
 p_obj=person("manish",30)
 p_obj.talk()
 p_obj.walk()
+p_obj.read()
 
 
