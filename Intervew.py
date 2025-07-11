@@ -8,6 +8,8 @@ class person:
 
     def walk(self):
         print(f"{self.name}  can walk")
+    def read(self):
+         print(f"{self.name}  can Read")
 
 p_obj=person("manish",30)
 p_obj.talk()
